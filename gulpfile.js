@@ -11,6 +11,16 @@ im.resize({
 });
 
 im.resize({
+  srcPath: 'views/images/pizzeria.jpg',
+  dstPath: 'img_s/pizzeria-small.jpg',
+  width:   100,
+  height: 50
+}, function(err, stdout, stderr){
+  if (err) throw err;
+  console.log('resized kittens.jpg to fit within 256x256px');
+});
+
+im.resize({
   srcPath: 'img/cam_be_like.jpg',
   dstPath: 'img_s/cam_be_like-small.jpg',
   width:   100,
