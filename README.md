@@ -22,8 +22,8 @@ Action taken:
 
 Action taken:
 
-1. Modifying the for loop in updatePositions() function
+1. Modifying the some for loops in main.js, e.g. in updatePositions(), functionchangePizzaSizes() and other functions
 
-2. Modifying the for loop in changePizzaSizes() function
+2. Replace some QuerySelector instances with getElementbyId in the changePizzaSizes() function
 
-3. Replace some QuerySelector instances with getElementbyId in the changePizzaSizes() function
+3. Total numbers of pizzas are reduced. Previously 200 pizzas are too large a number.
