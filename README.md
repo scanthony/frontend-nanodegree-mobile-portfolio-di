@@ -1,5 +1,8 @@
 ## Website Performance Optimization portfolio project
 
+### 1st Updates
+Issues in index.html and main.js addressed.
+
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
 Action taken:
@@ -10,10 +13,6 @@ Action taken:
 
 3. Minify CSS/JavaScript files
 
-Screenshots: 
-![Page Insights: Desktop](/results/1-desktop.png)
-![Page Insights: Mobile](/results/1-mobile.png)
-
 #### Part 2: Optimize Frames per Second in pizza
 
 Action taken:
@@ -23,7 +22,3 @@ Action taken:
 2. Modifying the for loop in changePizzaSizes() function
 
 3. Replace some QuerySelector instances with getElementbyId in the changePizzaSizes() function
-
-Screenshots: 
-![Over 60 FPS](/results/60+fps.png)
-![Faster Resize Calculation](/results/resize.png)
