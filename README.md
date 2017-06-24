@@ -1,7 +1,12 @@
-## Website Performance Optimization portfolio project
+## Website Performance Optimization portfolio project (1st Updates)
 
-### 1st Updates
-Issues in index.html and main.js addressed.
+#### How to run the site locally
+
+Download as a zip file, unzip and then you can view the web pages locally.
+
+To rank the page with Google Page Insigts, host the folder in a local web server, and then run ngrok with your localhost, so that you can access the pages remotely. 
+
+Images are resized with ImageMagick. To run it in Windows 10, I installed bash, node.js (with npm) and gulp. Instuctions on how to install them are available on their own GitHub repo or support documentations.
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
